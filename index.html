@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tre' Austin Portfolio Wedsite</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <h1>
+                        <a href="index.html"> <span class="fas fa-code-branch"
+                                aria-hidden="true"></span>
+                            <span> Tre' Austin</span> </a></h1>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/tresaaustin/"
+                            target="_blank">
+                            <span class="fab fa-linkedin"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+
+                    </li>
+                    <li><a href="https://github.com/trevaliant">
+                            <span class="fab fa-github"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Github</a></li>
+                        <li><a
+                                href="https://www.dropbox.com/scl/fi/ulbyiyroijy1g2gup76bp/Austin_Tresa_Resume.docx?rlkey=16u0qymz5vki3tcbg9e58fr3b&st=ox2d7h80&dl=0"
+                                class="button">Resume</a></li>
+                    </nav>
+
+                    <section id="intro">
+                        <p class="name">Hi, my name is <span>Tresa (Tre')
+                                Austin</span></p>
+
+                        <h2>I am a software engineer specializing in HL7/FIHR
+                            and healthcare.</h2>
+
+                        <p>Currently I'm pursuing a 3rd Masters degree in Data
+                            Analytics and creating applications for my own
+                            software company, Trenzacore.
+                        </p>
+                    </section>
+                    <div class="gradient"></div>
+
+                    <div class="section-projectone">
+                        <section id="projects">
+
+                            <h2> Highlighted Projects</h2>
+                            <article>
+                                <div class="text">
+                                    <h4>Latest Project</h4>
+                                    <h3> Data Conversion</h3>
+                                    <p class="blackbox">
+                                        This project took data from one EVV
+                                        system to another EVV system. There was
+                                        almost 5 years of data gathered for
+                                        Medicaid recipients
+                                        for visits for various home care
+                                        services. Getting this data into the new
+                                        system was imperative so providers could
+                                        have historical
+                                        data, audits could be performed, and
+                                        members care could be continuous.
+                                        The source system did not use the same
+                                        format, fields or export types that
+                                        aligned with our system.
+                                        Here is the a write up with code snipets
+                                        <a
+                                            href="https://github.com/trevaliant/Sample-Data-Conversion/tree/main">Github</a>.
+                                        <h4> Technologies used include:</h4>
+                                        <ul>
+                                            <li> Node.js</li>
+                                            <li> Mongo.db</li>
+                                            <li> API</li>
+                                            <li> CSV</li>
+                                        </ul>
+                                    </div>
+                                    <img
+                                        src="https://www.suretysystems.com/wp-content/uploads/2022/07/Hands-exchanging-files-between-computers-to-represent-Workday-data-conversion.png"
+                                        alt="Image of Data Converion Process" />
+                                </p>
+                            </article>
+                            <article class="reverse">
+                                <div class="text">
+                                    <h4>Captsone Project</h4>
+                                    <h3>Mobile Appointment Application</h3>
+                                    <p class="blackbox">
+                                        This is was my final project for my
+                                        Bachelors Degree in Software Development
+                                        at Western Governors University.
+                                        A mobile application for scheduling
+                                        appointments for a global company that
+                                        did sales.
+                                        The application also has reports that
+                                        sales and leaders can use to determine
+                                        factors such as productivity or win/loss
+                                        rate.
+                                        Here is the source code on
+                                        <a
+                                            href="https://github.com/trevaliant/GI_Inc">Github</a>.
+                                    </p>
+                                    <h4>Technologies used include:</h4>
+                                    <ul>
+                                        <li>C#</li>
+                                        <li>SQL</li>
+                                        <li>UI/UX</li>
+                                    </ul>
+                                </div>
+                                <img
+                                    src="img/CapstoneGI.png"
+                                    alt="Code from GI.Inc" />
+                            </article>
+                            <article>
+                                <div class="text">
+                                    <h4>Case Study</h4>
+                                    <h3>Populating DFT Messages</h3>
+                                    <p class="blackbox">
+                                        Project to develop a solution to intact
+                                        DFT messages from flat files and
+                                        translate to HL7.
+                                        A need arose for a single client that
+                                        had a large volume of claims that needed
+                                        to be translated to HL7 for claims to be
+                                        sent to clearninghouses. The team I
+                                        managed came together
+                                        and found a soultion to use our
+                                        Intersystems Ensemble interface to
+                                        ingest flat files and change to HL7, not
+                                        only for the one client but to be used
+                                        as a sales addon for future clients.
+                                        A write up of the case study is located
+                                        <a
+                                            href="https://github.com/trevaliant/Case-Study-Populating-DFT-Messages/tree/main">here</a>.
+                                    </p>
+                                    <h4>Technologies used include:</h4>
+                                    <ul>
+                                        <li>HL7</li>
+                                        <li>CSV</li>
+                                        <li>JSON</li>
+                                    </ul>
+                                </div>
+                                <img
+                                    src="img/download.png"
+                                    alt="Screenshot of HL7 logo." />
+                            </article>
+                        </section>
+                    </div>
+
+                    <a
+                        href="https.github.com/trevaliant.io/grid-flexbox-v2/"></a>
+
+                </section>
+            </div>
+
+            <div class="section-contact">
+                <section id="contact">
+                    <h2>Contact me</h2>
+                    <p>
+                        I'm always interested in hearing about new
+                        opportunities for using my skillset in HL7/FHIR
+                        or
+                        healthcare integrations.
+                    </p>
+                    <p><a href="mailto:tre.austin2024@gmail.com"
+                            class="button"> Email me</a></p>
+
+                </section>
+            </div>
+            <div class="gradient"></div>
+            <footer>
+                <h2> Tresa Austin &middot; Data Analyst/HL7 Engineer
+                </h2>
+                <ul>
+                    <li><a
+                            href="https://www.linkedin.com/in/tresaaustin/"
+                            target="_blank">
+                            <span class="fab fa-linkedin"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+
+                    </li>
+                    <li><a href="https.github.com/trevaliant">
+                            <span class="fab fa-github"
+                                aria-hidden="true"></span>
+                            <span class="sr-only">Github</a></li>
+                        <li>
+                            <a href="mailto:tre.austin2024@gmail.com">
+                                <span class="fas fa-envelope"
+                                    aria-hidden="true"></span>
+                                <span class="sr-only">Email</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p> <small>&copy; 2024 Tre' Austin. All rights
+                            reserved.</small>
+                    </p>
+                </footer>
+            </body>
+        </html>
